@@ -1,0 +1,18 @@
+.top-nav-collapse {
+  background-image: url( http://simancasgandia.com/wp/wp-content/uploads/2015/03/dormitorio_simancas.jpg ) !important;
+  opacity: 0.5;
+}
+  
+.top-nav-collapse, .page-footer {
+  background-image: url( https://www.telafrictv.com/wp-content/uploads/2018/12/tiendas-de-muebles-en-getafe-unico-tiendas-muebles-excellent-muebles-de-salon-salones-de-tiendas-de-muebles-en-getafe.jpg ) !important;
+  opacity: 0.8;
+}
+
+.card-link {
+  color:white;
+}
+
+.card-link:hover {
+  color: yellow;
+}
+  

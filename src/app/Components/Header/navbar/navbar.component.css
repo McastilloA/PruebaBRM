@@ -1,0 +1,38 @@
+/* Required for full background image */
+html,
+body,
+header,
+#intro-section {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  #intro-section {
+    height: 100%;
+  }
+}
+
+.top-nav-collapse {
+    background-color: black !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: black !important;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+ color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: yellow;
+}

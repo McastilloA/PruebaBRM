@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+hr.style{
+    border-top: 1px solid #8c8b8b;
+    width: 120px;
+}
+
+h4.yellow,h5.yellow {
+    color: yellow;
+}
+
+.card:hover {
+    color: yellow;
+    background: black;
+}
+
+.btn-outline-dark:hover{
+    background: yellow;
+    color: black;
+}
+
+
