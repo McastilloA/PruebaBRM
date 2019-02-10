@@ -1,22 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+/* html,
+body,
+header,
+#intro-section {
+  height: 100%;
+} */
 
 hr.style{
     border-top: 1px solid #8c8b8b;
     width: 120px;
 }
 
-h4.yellow,h5.yellow {
+hr{
+    border-top: 1px solid #8c8b8b;
+}
+
+.text, .navbar-dark .navbar-nav .nav-link, .card-link, .card-subtitle, .text-uppercase{
+    color: white;
+}
+
+.txtyellow, .navbar-dark .navbar-nav .nav-link:hover, .card-link:hover {
     color: yellow;
 }
 
-.card:hover {
-    color: yellow;
-    background: black;
-}
-
-.btn-outline-dark:hover{
+.btn-outline-dark:hover, .btn-outline-light:hover{
     background: yellow;
     color: black;
 }
-
-

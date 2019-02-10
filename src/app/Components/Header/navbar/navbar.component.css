@@ -1,26 +1,20 @@
 /* Required for full background image */
-html,
-body,
-header,
-#intro-section {
-  height: 100%;
+
+.page-header{
+  height: 100vh;
+  width: 100%;
+  background-image: url( https://i.pinimg.com/originals/a2/55/1f/a2551fa931ede67c614b4028fdc5c3b0.jpg ) !important;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
 }
 
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  #intro-section {
-    height: 100%;
-  }
-}
-
-.top-nav-collapse {
-    background-color: black !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+.navbar:not(.top-nav-collapse), #buttons {
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 @media (max-width: 991px) {
@@ -29,10 +23,6 @@ header,
   }
 }
 
-.navbar-light .navbar-nav .nav-link {
- color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: yellow;
+#buttons{
+  width: 100%;
 }
